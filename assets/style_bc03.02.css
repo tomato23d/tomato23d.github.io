@@ -1,0 +1,24 @@
+    body {
+	margin: 10px;
+	padding: 0; background-color: #F9E79F; box-sizing: border-box;}
+	img{
+		height: 50px;
+		width: 50px;
+		margin-left: auto;
+		margin-right: auto;	}
+	myImage {height: 100px; width: 100px; margin-left: auto; margin-right: auto;}
+	
+    footer, header {text-align: center; font: sans-serif; background-color: #CB4335; color: #F9E79F;}
+	ul { padding-left: 50px; 
+			font-size: 15px;  } 
+	p {  margin-left: 50px; font-size: 16px; } 
+	#parentDIV {width: 95%; margin-left: auto; margin-right: auto;}
+	.card {background-color: white; background-image: radial-gradient(rgb(247, 191, 123), rgb(243, 243, 187));   border: solid gray; box-shadow:  grey; width: 300 px; height: 100 px; padding: 10 px;  }
+	
+	#color1 { background-color: #A757ea;  color: whitesmoke; text-align: center; font-style: italic; font-stretch: ultra-expanded;}
+	span { display: inline-block; border-block: hotpink dashed 8px; width: 100 px; height: 100 px;  background-color: lightgreen;}
+	h2 {font-style: italic; text-align: center; font-size: 30 px; }
+	.gridA1 {display:grid; grid-template-columns: repeat(4, 3fr); grid-auto-rows: mimax(10px, auto); padding: 10px;
+		background-color: #f0885c; color: #F9E79F;}
+		
+	.gridA1 > div { text-align: center; padding: 20px 0; font-size: 30px;}
